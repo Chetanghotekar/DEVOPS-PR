@@ -49,11 +49,10 @@
    ```bash
    git push -u origin main
    ```
-HINT. **IF Any error occur**:
-   Use This Command:
-      echo "HELLO">README.md
-after that use git add . again 
-again commit files and push codes
+**If any error occur use this commands:**
+   - echo "HELLO">README.md
+   - git add .
+   - again go to commit state (above 4th step)
 ---
 
 ## Step 2: Download and Setup Jenkins
