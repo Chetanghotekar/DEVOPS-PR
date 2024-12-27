@@ -52,7 +52,8 @@
 **If any error occur use this commands:**
    - echo "HELLO">README.md
    - git add .
-   - again go to commit state (above 4th step)
+   - git commit -m "<your message>"
+   - git push -u origin main or master as per case
 ---
 
 ## Step 2: Download and Setup Jenkins
