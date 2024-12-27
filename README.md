@@ -49,14 +49,11 @@
    ```bash
    git push -u origin main
    ```
-**If any error occur like:
-      error: src refspec main does not match any
-      error: failed to push some refs to 'https://github.com/vanshbadjate07/Dev-final.git'
-**Use this command to resolve the issue:
-   echo "HELLO">README.md
-#after that use git add .
-again commit files
-and push codes
+HINT. **IF Any error occur**:
+   Use This Command:
+      echo "HELLO">README.md
+after that use git add . again 
+again commit files and push codes
 ---
 
 ## Step 2: Download and Setup Jenkins
