@@ -138,8 +138,7 @@
 
 ---
 
-## Step 4: Automate the Build
-
+## Step 4: Automate the Build (Optional cause without this it also work but still do!!)
 1. **Configure Webhook in GitHub**:
    - Go to the repository settings.
    - Navigate to "Webhooks" and click "Add webhook".
