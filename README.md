@@ -179,7 +179,7 @@
 
 3. **Add the Script to Jenkins**:
    - In Jenkins, navigate to the job configuration.
-   - Add a post-build step to execute the script:
+   - Add a new build step to execute the script:
      - **Windows**: `deploy.bat`
      - **macOS**:
        ```bash
