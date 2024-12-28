@@ -180,7 +180,10 @@
 3. **Add the Script to Jenkins**:
    - In Jenkins, navigate to the job configuration.
    - Add a new build step to execute the script:
-     - **Windows**: `deploy.bat`
+     - **Windows**:
+       ```bash
+       `deploy.bat`
+       ```
      - **macOS**:
        ```bash
        chmod +x deploy.sh
@@ -201,16 +204,23 @@
    git commit -m "Updated message"
    git push origin master
    ```
+   or
+   ```bash
+   git add <filename>
+   git commit -m "Updated message"
+   git push origin main
+   ```
+   
 
-3. **Observe Jenkins Automation**:
+4. **Observe Jenkins Automation**:
    - Verify a new build is triggered automatically.
    - Check the console output for successful build and deployment.
 
-4. **Verify the Application**:
+5. **Verify the Application**:
    - Test the application locally.
    - For web services, test the local URL.
 
-5. **Troubleshoot Issues**:
+6. **Troubleshoot Issues**:
    - Check Jenkins console output for errors.
    - Verify environment setup and configurations.
 
