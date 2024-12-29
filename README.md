@@ -87,7 +87,7 @@
 3. Retrieve Initial Password:
    - Navigate to:
      ```
-     C:\Program Files\Jenkins\secrets
+     C:\Program Files\Jenkins\.jenkins\secrets
      ```
    - Open the `initialAdminPassword` file and copy the password.
 
